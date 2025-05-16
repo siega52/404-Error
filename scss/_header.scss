@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    margin-top: 2rem;
+    max-width: 200rem;
+    padding: 2rem;
+    background-color: var(--color-header);
+    border-radius: var(--radius-10);
+}
+a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--color-white);
+}
+a:hover{
+    color: antiquewhite;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-item {
+    font-weight: 700;
+}
+.center {
+    display: flex;
+    gap: 5rem;
+    font-weight: 500;
+}
+.right-nomber {
+    font-weight: 500;
+}
